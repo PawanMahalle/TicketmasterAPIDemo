@@ -22,7 +22,7 @@ import com.ticketmaster.entity.Event;
 
 public class TicketMasterAPICaller {
 
-	private static final String API_KEY = "7tpLOfbZfWekxORbpHkrdYH3GrAT7wVA";
+	private static final String API_KEY = "YOUR_API_KEY";
 
 	private static final String EVENT_API_CALL_PREFIX = new StringBuilder(
 			"https://app.ticketmaster.com/discovery/v1/events.json?apikey=").append(API_KEY).toString();
